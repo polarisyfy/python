@@ -5,9 +5,6 @@ from flask import request
 app = Flask(__name__)
 
 @app.route("/", methods=["GET", "POST"])
-def source():
-	html = 'Hello World!'
-	return html
 
 def application():
 	answer = logic("Example Input")
