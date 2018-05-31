@@ -14,7 +14,7 @@ gotoNext = "Y"
 while gotoNext == "Y":
 	targetBU = input ("4/5. Input the targetBU: ")
 	(listCenters, dictCenters) = xlsxHandler(wbPath, targetBU, listCenters, dictCenters)
-	# generateDestructByBU(rootPath, listObjs, listCenters)
+	#generateDestructByBU(rootPath, listObjs, listCenters)
 	generateXML(rootPath, targetBU, dictCenters, listObjs)
 	gotoNext = input("Has next BU? (Y/N):")
 
